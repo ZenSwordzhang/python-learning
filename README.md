@@ -44,10 +44,12 @@ https://visualstudio.microsoft.com/downloads/
 Twisted?19.10.0?cp38?cp38?win_amd64.whl is not a valid wheel filename.
 ### 解决方法
 * pip3 install wheel
+* 修改pip3 install Twisted-19.10.0-cp38-cp38-win_amd64.whl命令为python3 -m pip install .\Twisted-19.10.0-cp38-cp38-win_amd64.whl
 
 ## 安装Twisted报错
 * Twisted-19.10.0-cp38-cp38-win_amd64.whl is not a supported wheel on this platform.
 ### 解决方法
+* 查看pip支持版本，选择合适的版本
 
 ## 查看pip支持版本方法报错
 * module 'pip' has no attribute 'pep425tags'
