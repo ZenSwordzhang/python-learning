@@ -21,7 +21,7 @@ def char_num1(key):
 
 
 # 将字符串转成数字
-def str2int(str_):
+def str_int1(str_):
 
     def fn1(x, y):
         return x * 10 + y
@@ -32,13 +32,13 @@ def str2int(str_):
     return reduce(fn1, map(char_num2, str_))
 
 
-def char_num2(key):
+def char_num3(key):
     return DIGITS[key]
 
 
 # 将字符串转成数字
 def str_int2(str_):
-    return reduce(lambda x, y: x * 10 + y, map(char_num2, str_))
+    return reduce(lambda x, y: x * 10 + y, map(char_num3, str_))
 
 
 sum_ = reduce(add, [1, 3, 5, 7, 9])
@@ -50,8 +50,8 @@ print(product_sum)
 m_int = reduce(fn, map(char_num1, '24680'))
 print(m_int)
 
-m_ = str2int('12345')
+m_ = str_int1('12345')
 print(m_)
 
-m_1 = str2int('45678')
+m_1 = str_int2('45678')
 print(m_1)
