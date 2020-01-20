@@ -63,3 +63,7 @@ Twisted?19.10.0?cp38?cp38?win_amd64.whl is not a valid wheel filename.
 ### 解决方法
 * 使用windows升级pip命令
 * python -m pip install -U pip
+
+# 资料
+## 参考资料
+* [flask](http://docs.jinkan.org/docs/flask/index.html)
