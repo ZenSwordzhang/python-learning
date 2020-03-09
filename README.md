@@ -14,8 +14,12 @@ pip3 install psycopg2
 ## 升级PIP
 ### 在Linux或macOS上：
 * pip install -U pip
-### 在Windows 4上：
-* python -m pip install -U pip
+### 在Windows 上：
+* python3 -m pip install -U pip
+* python3 -m pip install --upgrade pip
+
+# 安装Django
+python3 -m pip install Django
 
 #问题
 
